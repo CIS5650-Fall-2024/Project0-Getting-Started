@@ -1,7 +1,6 @@
-Project 0 Getting Started: Instructions
-========================
+# Project 0 Getting Started: Instructions
 
-This is due **September 1st 2023**. (See [late policy](#late-policy) at the bottom)
+This is due **August 30 2024**. (See [late policy](#late-policy) at the bottom)
 
 **Summary:** In this project, you will set up your GPU development tools and verify that you can build, run, and do performance analysis.
 
@@ -15,9 +14,9 @@ This project contains:
 
 ## Part 1: Setup your Development Environment
 
-CIS 565 projects require a compatiable NVIDIA GPU. As some of you may not have an NVIDIA GPU in your personal computers, we have made them available through the CETS Virtual Lab.
+CIS 5650 projects require a compatiable NVIDIA GPU. As some of you may not have an NVIDIA GPU in your personal computers, we have made them available through the CETS Virtual Lab.
 
-Follow the [Hardware and Software Setup](https://cis565-fall-2023.github.io/setup/) pages on the course website to set up your development environment.
+Follow the [Hardware and Software Setup](https://cis5650-fall-2024.github.io/setup/) pages on the course website to set up your development environment.
 
 *Notes:*
 
@@ -28,22 +27,22 @@ Follow the [Hardware and Software Setup](https://cis565-fall-2023.github.io/setu
 ### Setup you Git Environment
 
 0. You will need Git installed. Some computers including CETS Virtual Lab may have Git installed. To check if Git is installed, open Command Prompt/Git Bash/Terminal and run `git`. To install Git:
-  * **Windows:** [Git](https://git-scm.com/download/win)
-  * **Linux:** `apt install git` on Debian/Ubuntu
+    * **Windows:** [Git](https://git-scm.com/download/win)
+    * **Linux:** `apt install git` on Debian/Ubuntu
 1. If you haven't used Git, you'll need to set up a few things.
-  * On Windows: In order to use Git commands, you can use Git Bash. You can right-click in a folder and open Git Bash there.
-  * On Linux: Open a terminal.
-  * Configure git with some basic options by running these commands:
-    * `git config --global push.default simple`
-    * `git config --global user.name "YOUR NAME"`
-    * `git config --global user.email "GITHUB_USER@users.noreply.github.com"`
-    * (Or, you can use your own address, but remember that it will be public!)
+    * On Windows: In order to use Git commands, you can use Git Bash. You can right-click in a folder and open Git Bash there.
+    * On Linux: Open a terminal.
+    * Configure git with some basic options by running these commands:
+        * `git config --global push.default simple`
+        * `git config --global user.name "YOUR NAME"`
+        * `git config --global user.email "GITHUB_USER@users.noreply.github.com"`
+        * (Or, you can use your own address, but remember that it will be public!)
 2. Clone from GitHub onto your machine:
-    * Navigate to the directory where you want to keep your 565 projects, then
+    * Navigate to the directory where you want to keep your 5650 projects, then
      clone your fork.
-      * `git clone` the clone URL from your GitHub fork homepage.
+        * `git clone` the clone URL from your GitHub fork homepage.
 
-Note: Do not clone projects directly from the [CIS565-Fall-2023](https://github.com/CIS565-Fall-2023) GitHub organization. Be sure to fork the project on GitHub first to your own account and then clone it using your fork.
+Note: Do not clone projects directly from the [CIS5650-Fall-2024](https://github.com/CIS5650-Fall-2024) GitHub organization. Be sure to fork the project on GitHub first to your own account and then clone it using your fork.
 
 *Getting Started with GitHub Resources:*
 
@@ -67,19 +66,19 @@ In your README, report the Compute Capability of your CUDA-compatible GPU (somet
 
 1. In Git Bash, navigate to your cloned project directory.
 2. Create a `build` directory: `mkdir build`
-   * (This "out-of-source" build makes it easy to delete the `build` directory and try again if something goes wrong with the configuration.)
+    * (This "out-of-source" build makes it easy to delete the `build` directory and try again if something goes wrong with the configuration.)
 3. Navigate into that directory: `cd build`
 4. Open the CMake GUI to configure the project:
-   * `cmake-gui ..` or `"C:\Program Files (x86)\cmake\bin\cmake-gui.exe" ..`
-     * Don't forget the `..` part! This tells CMake that the `CMakeLists.txt` file is in the parent directory of `build`.
-   * Make sure that the "Source" directory points to the directory `cuda-getting-started`.
-   * Click *Configure*.
-      * Select your Visual Studio version (2019 or 2017), and `x64` for your platform. (**NOTE:** you must use x64, as we don't provide libraries for Win32.)
-   * Click *Generate*.
+    * `cmake-gui ..` or `"C:\Program Files (x86)\cmake\bin\cmake-gui.exe" ..`
+        * Don't forget the `..` part! This tells CMake that the `CMakeLists.txt` file is in the parent directory of `build`.
+    * Make sure that the "Source" directory points to the directory `cuda-getting-started`.
+    * Click *Configure*.
+        * Select your Visual Studio version (2019 or 2017), and `x64` for your platform. (**NOTE:** you must use x64, as we don't provide libraries for Win32.)
+    * Click *Generate*.
 5. If generation was successful, there should now be a Visual Studio solution (`.sln`) file in the `build` directory that you just created. Open this with Visual Studio.
 6. Build. (Note that there are Debug and Release configuration options.)
-7. Run. Make sure you run the `cis565_` target (not `ALL_BUILD`) by right-clicking it and selecting "Set as StartUp Project".
-   * If you have switchable graphics (NVIDIA Optimus), you may need to force your program to run with only the NVIDIA card. In NVIDIA Control Panel, under "Manage 3D Settings," set "Multi-display/Mixed GPU acceleration" to "Single display performance mode".
+7. Run. Make sure you run the `cis5650_` target (not `ALL_BUILD`) by right-clicking it and selecting "Set as StartUp Project".
+    * If you have switchable graphics (NVIDIA Optimus), you may need to force your program to run with only the NVIDIA card. In NVIDIA Control Panel, under "Manage 3D Settings," set "Multi-display/Mixed GPU acceleration" to "Single display performance mode".
 
 #### Linux
 
@@ -87,43 +86,43 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
 
 1. Open Nsight. Set the workspace to the one *containing* your cloned repo.
 2. *File->Import...->General->Existing Projects Into Workspace*.
-   * Select the `cuda-getting-started` directory as the *root directory*.
-3. Select the *cis565-* project in the Project Explorer. Right click the project. Select *Build Project*.
-   * For later use, note that you can select various Debug and Release build configurations under *Project->Build Configurations->Set Active...*.
+    * Select the `cuda-getting-started` directory as the *root directory*.
+3. Select the *cis5650-* project in the Project Explorer. Right click the project. Select *Build Project*.
+    * For later use, note that you can select various Debug and Release build configurations under *Project->Build Configurations->Set Active...*.
 4. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
-   * In a terminal, navigate to the build directory, then run: `cmake-gui ..`
-   * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.  This will be something like: `/usr/local/cuda`
-   * Click *Configure*, then *Generate*.
+    * In a terminal, navigate to the build directory, then run: `cmake-gui ..`
+    * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.  This will be something like: `/usr/local/cuda`
+    * Click *Configure*, then *Generate*.
 5. Right click and *Refresh* the project.
-6. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the `cis565_` binary.
+6. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the `cis5650_` binary.
 
 ### Part 3.1.1: Modify the CUDA Project and Take a Screenshot
 
 1. Search the code for `TODO`: you'll find one in `cuda-getting-started/src/main.cpp` on line 13. Change the string to your name, rebuild, and run. (`m_yourName = "TODO: YOUR NAME HERE";`)
 2. Take a screenshot of the window (including title bar) and save it to the `images` directory for Part 4.
 3. You're done with some code changes now; make a commit!
-   * Make sure to `git add` the `main.cpp` file.
-   * Use `git status` to make sure you didn't miss anything.
-   * Use `git commit` to save a version of your code including your changes.Write a short message describing your changes.
-   * Use `git push` to sync your code history to the GitHub server.
+    * Make sure to `git add` the `main.cpp` file.
+    * Use `git status` to make sure you didn't miss anything.
+    * Use `git commit` to save a version of your code including your changes.Write a short message describing your changes.
+    * Use `git push` to sync your code history to the GitHub server.
 
 ### Part 3.1.2: Analyze
 
 #### Windows
 
-1. Go to the Nsight menu in Visual Studio. 
-* If you dont see the Nsight Menu in the top panel then it's located inside the Extensions Menu, considering you have setup your environment correctly.*
-	* *Enable `Nsight` menu to appear in the top Navigation panel instead of the Extensions Menu*
-		* Click the `Extensions` button located at the top Panel
-		* Click on `Customize Menu..` button located in the 'Extensions' drop down menu. This will open up the Customise Dialog Box.
-		* Un-check `Nsight Developer Tools Inegration` and `Nsight Visual Studio Edition` located in the Extensions Menu of the Customise Dialog Box.
-		* Restart Visual Studio.
+1. Go to the Nsight menu in Visual Studio.
+    * If you dont see the Nsight Menu in the top panel then it's located inside the Extensions Menu, considering you have setup your environment correctly.*
+    * *Enable `Nsight` menu to appear in the top Navigation panel instead of the Extensions Menu*
+        * Click the `Extensions` button located at the top Panel
+        * Click on `Customize Menu..` button located in the 'Extensions' drop down menu. This will open up the Customise Dialog Box.
+        * Un-check `Nsight Developer Tools Inegration` and `Nsight Visual Studio Edition` located in the Extensions Menu of the Customise Dialog Box.
+        * Restart Visual Studio.
 2. Click on *Nsight Systems _Your Version of Nsight_*.
 3. Select *Trace*.
 4. Click *Target for profiling...*. Select your machine under 'Localhost connection'.
 5. Under *Trace Settings* that now appear, enable tracing for CUDA and OpenGL.
 6. Click *Start*.
-   * If you have switchable graphics (NVIDIA Optimus), see the note in Part 3.1.
+    * If you have switchable graphics (NVIDIA Optimus), see the note in Part 3.1.
 7. Run the program for a few seconds, then close it.
 8. At the top of the report page, select *Timeline* from the drop-down menu.
 9. Take a screenshot of this tab and save it to `images`, for Part 4.
@@ -176,7 +175,7 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
 4. Select File -> Import.
 5. Then in the pop up box, select `General -> Existing Project into Workspace".
 6. In `Select Root Directory` browse to the `eclipse` directory.
-7. This will populate the box below with `cis565_getting_started.....`.
+7. This will populate the box below with `cis5650_getting_started.....`.
 8. Select this and click "Finish".
 
 Now you can carry on running the executable and other profiler and debug steps.
@@ -186,76 +185,43 @@ Now you can carry on running the executable and other profiler and debug steps.
 1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
 2. Check that you have [WebGL support](https://webglreport.com)
 3. If step 2 doesn't show WebGL compatibility, then try the following:
-  * *Enabling WebGL*
-    * Go to `chrome://settings` (in the address bar)
-    * Click the `Advanced` button at the bottom of the page
-    * In the `System` section, ensure the `Use hardware acceleration when available` checkbox is checked (you'll need to relaunch Chrome for any changes to take effect)
-    * Go to `chrome://flags`
-    * Ensure that `Disable WebGL` is not activated (you'll need to relaunch Chrome for any changes to take effect)
-      * In newer versions, this option of `Disable WebGL` will not be available, you will instead have to search for `WebGL 2.0` (or some different version)
-      * If an option appears as `Default`, changed it to `Enabled`
-      * You should also change `Override software rendering list` to `Enabled`
-  * *Checking WebGL status*
-    * Go to `chrome://gpu`
-    * Inspect the WebGL item in the Graphics Feature Status list. The status will be one of the following:
-      * Hardware accelerated - WebGL is *enabled* and hardware-accelerated (running on the graphics card).
-      * Software only, hardware acceleration unavailable - WebGL is *enabled*, but running in software.
-      * Unavailable - WebGL is *not available* in hardware or software.
+    * *Enabling WebGL*
+        * Go to `chrome://settings` (in the address bar)
+        * Click the `Advanced` button at the bottom of the page
+        * In the `System` section, ensure the `Use hardware acceleration when available` checkbox is checked (you'll need to relaunch Chrome for any changes to take effect)
+        * Go to `chrome://flags`
+        * Ensure that `Disable WebGL` is not activated (you'll need to relaunch Chrome for any changes to take effect)
+            * In newer versions, this option of `Disable WebGL` will not be available, you will instead have to search for `WebGL 2.0` (or some different version)
+            * If an option appears as `Default`, changed it to `Enabled`
+            * You should also change `Override software rendering list` to `Enabled`
+    * *Checking WebGL status*
+        * Go to `chrome://gpu`
+        * Inspect the WebGL item in the Graphics Feature Status list. The status will be one of the following:
+            * Hardware accelerated - WebGL is *enabled* and hardware-accelerated (running on the graphics card).
+            * Software only, hardware acceleration unavailable - WebGL is *enabled*, but running in software.
+            * Unavailable - WebGL is *not available* in hardware or software.
 
 **Take a screenshot** the output of `https://webglreport.com` or `chrome:\\gpu` and save it to `\images`. Your submission must show that WebGL works on your machine (or any machine you plan to develop on, e.g: Moore or SIGLAB machines).
 
-### Part 3.3: DXR
+### Part 3.3: WebGPU
 
-This part will *only* work if you are using a Windows 10 computer with a DXR compatible GPU. Note that this does **not** mean that you need an RTX card.
+1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
+    * See a list of supported browsers and versions at https://github.com/gpuweb/gpuweb/wiki/Implementation-Status.
+2. Check that you have [WebGPU support](https://webgpureport.org/)
+    * If you have multiple GPUs on your computer (eg. Intel and NVIDIA), then look at the `Adapter Info`. Use your device settings to change the GPU and then refresh the page to see if the GPU has updated.
+3. If step 2 doesn't show WebGPU compatibility, then follow the instruction in https://developer.chrome.com/docs/web-platform/webgpu/troubleshooting-tips.
 
-The goal of this test is to check the level of support your device has for DirectX RayTracing (DXR). There are 3 levels of DXR Support:
-
-1. DXR: This means your GPU has full hardware support for DXR. This gets you maximum performance.
-2. FL-DXR: This means your GPU does not have hardware support, and is using the fallback layer (FL) with DXR driver acceleration.
-3. FL: This means your GPU does not have hardware support, and is using software fallback layer.
-
-* If your machine has any of [the following GPUs](https://www.geforce.co.uk/hardware/technology/dx12/supported-gpus), then your machine *should* be able to emulate DXR
-   * Preferably, it would be a GeForce GTX 1060 or higher.
-   * If this is the case, then proceed to the step below.
-* Otherwise, you will need SIGLAB, CETS Virtual Lab, AWS, or Google Cloud Platform access to run this part on any machine that has the appropriate GPU.
-   * Once you have access to the appropriate SIGLAB machine, then proceed to the steps below.
-
-**If your computer does not have any level of RTX Support, please note it in your readme. Do not try to spend too much trying trying to get RTX capable computer.**
-
-1. If running on your personal machine and you did not install [Windows SDK version 1809 (10.0.17763.0)](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive) as part of your Visual Studio setup, download and install it (use the `INSTALL SDK` option when downloading)
-2. Running the test project:
-    * Open Visual Studio 2017 or 2019.
-    * `File` > `Open` > `Project/Solution`
-    * Navigate to the root folder and open `DXR-Config-Test.sln`.
-      * **If using 2019, you will be prompted to upgrade the project toolset. Press cancel and do not change the project toolset.**
-    * `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`. Search for `WinPixEventRuntime` and install it if not already installed.
-    * In the solutions view, right click on `D3D12RaytracingHelloWorld` and then `Set as Startup Project`
-    * Build and run the project. This can be done by hitting `CTRL + F5`.
-      * If your project does not run and you have a supported NVIDIA GPU, Enable [Developer Mode](https://www.wikihow.com/Enable-Developer-Mode-in-Windows-10).
-        * Note: You need Admin permission to enable Developer Mode, and thus will not be able to do this on CETS Virtual Lab.
-    * If you're able to see an app with a colored triangle in the middle, then you have `DXR` support on your machine.
-      * Note: If you have an integrated GPU, sometimes these can be picked up for Fallback Layer. Ensure that the title bar of the window shows an NVIDIA GPU. If it doesn't, open NVIDIA Control Panel -> Manage 3D Settings -> Preferred Graphics Processor -> High Performance NVIDIA GPU.
-    * The app may start with FL-DXR mode by default. You can also press `1`, `2`, and `3` on your keyboard to change modes:
-      1. FL-DXR
-      2. FL (required Developer Mode, will crash if Developer Mode is not enabled).
-      3. DXR
-      * If the mode doesn't switch, that means the mode is not available.
-    * Once you are able to build the project, make a small edit to `D3D12RaytracingHelloWorld/Raytracing.hlsl`
-      * Go to line 72. This should be inside the function `MyClosestHitShader()`.
-      * Change the value of `barycentrics` to any 0-1 vector you want.
-         * For example: `float3 barycentrics = float3(0, 0.8, 0);`. This will make your triangle fully light green.
-
-**Take a screenshot** of your **modified** triangle (at the best mode available). Make sure to include the application title bar so we can see what DXR compatibility you have. Include this screenshot in your submission in Part 4 below.
+**Take a screenshot** the output of https://webgpureport.org or any one of https://webgpu.github.io/webgpu-samples/ and save it to `\images`. Your submission must show that WebGPU works on your machine (or any machine you plan to develop on, e.g: Moore or SIGLAB machines).
 
 ## Part 4: Write-up
 
 1. Update ALL of the TODOs at the top of this README:
-   * Finish your `README.md`
-   * Add your name, computer, and whether it's a personal or lab computer.
-   * Embed the screenshots you took: `![](images/example.png)`
-   * Syntax help: https://help.github.com/articles/writing-on-github/
+    * Finish your `README.md`
+    * Add your name, computer, and whether it's a personal or lab computer.
+    * Embed the screenshots you took: `![](images/example.png)`
+    * Syntax help: https://help.github.com/articles/writing-on-github/
 2. Add, commit, and push your screenshots and README.
-   * Make sure your README looks good on GitHub!
+    * Make sure your README looks good on GitHub!
 3. If you have modified either of the `CMakeLists.txt` at all (aside from the list of `SOURCE_FILES`), mention it explicitly.
 
 ## Submit
@@ -280,10 +246,10 @@ And you're done!
 * Due at midnight on the due date
 * Submitted using GitHub
 * Late Policy
-    - Up to 1 week late:  50% deduction
-    - Use up to 4 bonus days over the semester to extend the due date without penalty
-    - Examples
-        - Extend 4 projects by 1 day each
-        - OR: Extend 1 project by 4 days
-        - OR: Extend 2 projects by 2 days each
+    * Up to 1 week late:  50% deduction
+    * Use up to 4 bonus days over the semester to extend the due date without penalty
+    * Examples
+        * Extend 4 projects by 1 day each
+        * OR: Extend 1 project by 4 days
+        * OR: Extend 2 projects by 2 days each
 * Can't be used for the final project
