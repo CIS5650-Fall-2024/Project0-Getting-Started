@@ -8,20 +8,20 @@ This project contains:
 
 1. **CUDA**: A simple program that demonstrates CUDA and OpenGL functionality and interoperability, testing that CUDA has been properly installed. If the machine you are working on has CUDA and OpenGL 4.0 support, then when you run the program, you should see either one or two colors depending on your graphics card.
 2. **WebGL**: A guide to enable WebGL support on your machine.
-3. **DXR**: A simple project to test your machine's ability to run DirectX Raytracing (DXR) for real-time ray-tracing projects.
+3. **WebGPU**: A guide to choose a browser that supports WebGPU
 
-**If your machine fails any of these (CUDA, WebGL, DXR), use the CETS Virtual Lab or SIGLAB's computers for your development. Your submission will require certain screenshots.**
+**If your machine fails any of these (CUDA, WebGL), use the CETS Virtual Lab or SIGLAB's computers for your development. Your submission will require certain screenshots.**
 
 ## Part 1: Setup your Development Environment
 
-CIS 5650 projects require a compatiable NVIDIA GPU. As some of you may not have an NVIDIA GPU in your personal computers, we have made them available through the CETS Virtual Lab.
+CIS 5650 projects require a compatible NVIDIA GPU. As some of you may not have an NVIDIA GPU in your personal computers, we have made them available through the CETS Virtual Lab.
 
 Follow the [Hardware and Software Setup](https://cis5650-fall-2024.github.io/setup/) pages on the course website to set up your development environment.
 
 *Notes:*
 
-* Before you get started: if you have multiple Visual Studio 2019 and/or CMake versions, you will probably run into trouble. Either uninstall extra versions (if possible) or ensure that the correct Visual Studio and CMake versions are being chosen.
-* If you are running into a lot of trouble, a clean installation of Visual Studio 2019, CMake, and CUDA can help fix any problems if other methods don't work.
+* Before you get started: if you have multiple Visual Studio and/or CMake versions, you will probably run into trouble. Either uninstall extra versions (if possible) or ensure that the correct Visual Studio and CMake versions are being chosen.
+* If you are running into a lot of trouble, a clean installation of Visual Studio 2022, CMake, and CUDA can help fix any problems if other methods don't work.
 * If you have driver issues or random crashing: uninstalling and reinstalling drivers usually works
 
 ### Setup you Git Environment
