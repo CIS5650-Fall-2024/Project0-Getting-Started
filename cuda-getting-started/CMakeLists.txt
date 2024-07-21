@@ -41,8 +41,8 @@ if(UNIX)
     find_package(glfw3 REQUIRED)
     find_package(GLEW REQUIRED)
     set(LIBRARIES glfw ${GLEW_LIBRARIES} ${OPENGL_gl_LIBRARY})
-else(UNIX)
-    set(EXTERNAL "external")
+else()
+    set(EXTERNAL "${CMAKE_SOURCE_DIR}/external")
 
     set(GLFW_ROOT_DIR ${EXTERNAL})
     set(GLFW_USE_STATIC_LIBS ON)
@@ -53,9 +53,9 @@ else(UNIX)
     find_package(GLEW REQUIRED)
 
     add_definitions(${GLEW_DEFINITIONS})
-    include_directories(${GLEW_INCLUDE_DIR} ${GLFW_INCLUDE_DIR})
-    set(LIBRARIES ${GLEW_LIBRARY} ${GLFW_LIBRARY} ${OPENGL_LIBRARY})
-endif(UNIX)
+    include_directories(${GLEW_INCLUDE_DIRS} ${GLFW_INCLUDE_DIRS})
+    set(LIBRARIES ${GLEW_LIBRARIES} ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES})
+endif()
 
 set(headers
     src/glslUtility.hpp
