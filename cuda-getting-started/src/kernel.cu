@@ -99,7 +99,7 @@ void kernelVersionVis(uchar4* PBOpos, int width, int height, int major, int mino
     dim3 fullBlocksPerGrid(blocksX, blocksY);
 
     //kernel launches
-    createVersionVisualization <<< fullBlocksPerGrid, threadsPerBlock>>>(PBOpos, width, height, major, minor);
+    createVersionVisualization<<<fullBlocksPerGrid, threadsPerBlock>>>(PBOpos, width, height, major, minor);
 
     // make certain the kernel has completed
     cudaThreadSynchronize();

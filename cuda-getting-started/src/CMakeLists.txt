@@ -5,6 +5,6 @@ set(SOURCE_FILES
     "kernel.cu"
     )
 
-cuda_add_library(src
+add_library(src
     ${SOURCE_FILES}
     )
