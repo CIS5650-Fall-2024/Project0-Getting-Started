@@ -1,8 +1,8 @@
 /**
  * @file
- * @brief     CIS 565 Version Checker
+ * @brief     CIS 5650 Version Checker
  * @details   A simple CUDA hello-world-style program for Patrick Cozzi's
- *            CIS 565: GPU Programming, at the University of Pennsylvania.
+ *            CIS 5650: GPU Programming, at the University of Pennsylvania.
  * @authors   Starter code: Yining Karl Li, Liam Boone, Harmony Li, Kai Ninomiya
  * @copyright University of Pennsylvania
  */
