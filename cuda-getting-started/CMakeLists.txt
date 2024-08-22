@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(cis565_getting_started LANGUAGES CUDA CXX)
+project(cis5650_getting_started LANGUAGES CUDA CXX)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
