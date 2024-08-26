@@ -181,7 +181,7 @@ CUDA programs that run on the GPU require the Nsight Debugger for inspection. In
     * If using older version of Nsight, you may need to select *Warp* and keep it that way.
 13. Find the yellow arrow by mapping `blockIdx` and `threadIdx` in `Autos` -> to `CTA` and `Thread` respectively under the `Shader Info` column. Click on the row to highlight it. Take a screenshot of this *Autos* window and the *Warp Info* as a image and save it under `images`.
     * Optionally, you may choose to double click on any one of the boxes in the "Threads" grid and watch the *Autos* window update the value.
-14. Play around with Nsight debugger as much as you want.
+14. Play around with Nsight debugger as much as you want. The debugger will be your best friend for CUDA Programming.
 
 More documentation for Nsight Visual Studio Edition is available at https://docs.nvidia.com/nsight-visual-studio-edition/index.html.
 
@@ -194,7 +194,12 @@ More documentation for Nsight Visual Studio Edition is available at https://docs
 4. Application will suspend in the main function. At this point there is no GPU code running.
 5. Now place a breakpoint at Line 79 of `kernel.cu` => `if (x <= width && y <= height) {`
 6. Restart the CUDA Debugging. This time, the breakpoint should be hit.
-    * The *Variable* and *CUDA* debugging tabs should appear.
+7. Take the time to explore the various debugger windows, CUDA execution information, and variable information.
+    * Take look at the *CUDA* tab. This shows all the executing threads, blocks, warps, and kernels. You can also toggle between the *Show kernels* and *Show GPUs* mode using the icons in the top right of the CUDA tab.
+    * Open the *Expressions* window from *Window -> Show View -> Expressions*. Once opened, add variables you want to watch or evaluate in the fields. For example, try `blockIdx` and `threadIdx`. You can also add components to these structs, for example `blockIdx.x`.
+        * You can also use these for conditional breakpoints to jump to a specific block or thread.
+    * Back in the *CUDA* tab, you can clock on any *Block* / *Warp* combination and double click it. This will move the execution of the breakpoint to that specific thread / warp / block.
+8. Play around with Nsight debugger as much as you want. The debugger will be your best friend for CUDA Programming.
 
 More document for Nsight Eclipse Edition is available at https://docs.nvidia.com/cuda/nsight-eclipse-plugins-guide/index.html.
 
