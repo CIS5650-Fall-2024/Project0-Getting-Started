@@ -53,6 +53,8 @@ Note: Do not clone projects directly from the [CIS5650-Fall-2024](https://github
 
 ### Part 3.1: CUDA
 
+### Part 3.1.1: Build and Run CUDA Getting Started
+
 Build and run the project and follow the instructions below to complete your README.
 
 In your README, report the Compute Capability of your CUDA-compatible GPU (sometimes called `sm`). Here is the [list of CUDA-compatible GPUs](https://developer.nvidia.com/cuda-gpus) along with their Compute Capabilities.
@@ -80,23 +82,70 @@ In your README, report the Compute Capability of your CUDA-compatible GPU (somet
 7. Run. Make sure you run the `cis5650_` target (not `ALL_BUILD`) by right-clicking it and selecting "Set as StartUp Project".
     * If you have switchable graphics (NVIDIA Optimus), you may need to force your program to run with only the NVIDIA card. In NVIDIA Control Panel, under "Manage 3D Settings," set "Multi-display/Mixed GPU acceleration" to "Single display performance mode".
 
+**Nsight Visual Studio Menus**
+
+* If you don't see the Nsight Menu in the top panel then it's located inside the Extensions Menu, considering you have setup your environment correctly.*
+* *Enable `Nsight` menu to appear in the top Navigation panel instead of the Extensions Menu*
+    * Click the `Extensions` button located at the top Panel
+    * Click on `Customize Menu..` button located in the 'Extensions' drop down menu. This will open up the Customise Dialog Box.
+    * Un-check `Nsight Developer Tools Inegration` and `Nsight Visual Studio Edition` located in the Extensions Menu of the Customise Dialog Box.
+    * Restart Visual Studio.
+
 #### Linux
 
-It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set up the environment path correctly `export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}` (Note that simply typing the `export` command is a temporary change. The `PATH` variable won't be updated permanently. For permanent change, add it to your shell configuration file, e.g. `~/.profile` on Ubuntu), you can run Nsight by typing `nsight` in your terminal.
+**Command Line**
 
-1. Open Nsight. Set the workspace to the one *containing* your cloned repo.
-2. *File->Import...->General->Existing Projects Into Workspace*.
-    * Select the `cuda-getting-started` directory as the *root directory*.
-3. Select the *cis5650-* project in the Project Explorer. Right click the project. Select *Build Project*.
+To get started, first use these command line instructions to build and run the project.
+
+```
+cd Project0-Getting-Started
+cd cuda-getting-started
+mkdir build
+cd build
+cmake ..
+make -j8
+./bin/cis5650_getting_started
+```
+
+FAQ & Troubleshooting for Linux
+
+* CMake throws `No CMAKE_CUDA_COMPILER could be found.` error.
+    * Confirm that you have installed CUDA correctly. Check `/usr/local/` directory for CUDA installation.
+    * Add `/usr/local/cuda/bin` to your `PATH` environment variable.
+    * If you set up the environment path correctly `export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}`, note that simply typing the `export` command is a temporary change for your current bash terminal. The `PATH` variable won't be updated permanently. For permanent change, add it to your shell configuration file, e.g. `~/.profile` (on Ubuntu).
+    * Note: If you changed installation directory, then use the appropriate CUDA Toolkit directory.
+* The compilation throws linker errors for GLX.
+    * Ensure the right libraries (dev versions) are installed for mesa and glx for your distribution.
+
+**Nsight Eclipse**
+
+On Linux, Eclipse serves as the main IDE and visual debugger for CUDA. The steps to set this up are:
+
+> Note: You may optionally choose to use [Nsight Visual Studio Code Edition](https://docs.nvidia.com/nsight-visual-studio-code-edition/index.html). However, we haven't documented all the steps needed, so if you try it out, please feel free to open a pull request for these instructions. They will be greatly appreciated.
+
+1. Download and install `Eclipse IDE for C/C++ Developers` from https://www.eclipse.org/downloads/packages/. The suggested steps are https://linuxconfig.org/eclipse-ide-for-c-c-developers-installation-on-ubuntu-22-04, but you can follow different resources too.
+2. To install Nsight Plugin for Eclipse, follow the instructions in https://docs.nvidia.com/cuda/nsight-eclipse-plugins-guide/index.html.
+    * Note: Between steps 2.1.1 and 2.1.2, there is a missing step to install the Nsight plugin for Eclipse. These steps in 1.1 of  https://docs.nvidia.com/cuda/nsightee-plugins-install-guide/index.html
+
+Once you have installed Nsight Eclipse Edition, you are ready to create your project for Eclipse.
+
+1. Use Cmake to generate your Eclipse project.
+    ```
+    cd Project0-Getting-Started
+    mkdir cuda-getting-started-build # Eclipse prefers build directories to be siblings of source
+    cd cuda-getting-started-build
+    cmake ../cuda-getting-started -G"Eclipse CDT4 - Unix Makefiles"
+    ```
+2. Open Eclipse. Set the workspace to the one *containing* your cloned repo.
+3. *File->Import...->General->Existing Projects Into Workspace*.
+    * Select the `Project0-Getting-Started` directory as the *root directory*.
+4. Select the *cis5650-* project in the Projects list. Click *Finish*.
+5. In the Eclipse IDE Project Explorer, right click the project. Select *Build Project*.
     * For later use, note that you can select various Debug and Release build configurations under *Project->Build Configurations->Set Active...*.
-4. If you see an error like `CUDA_SDK_ROOT_DIR-NOTFOUND`:
-    * In a terminal, navigate to the build directory, then run: `cmake-gui ..`
-    * Set `CUDA_SDK_ROOT_DIR` to your CUDA install path.  This will be something like: `/usr/local/cuda`
-    * Click *Configure*, then *Generate*.
-5. Right click and *Refresh* the project.
-6. From the *Run* menu, *Run*. Select "Local C/C++ Application" and the `cis5650_` binary.
+6. If you see an errors, try the FAQ above.
+7. From the *Run* menu, *Run*. Select "Local C/C++ Application" and select the `cis5650_` binary.
 
-### Part 3.1.1: Modify the CUDA Project and Take a Screenshot
+### Part 3.1.2: Modify the CUDA Project and Take a Screenshot
 
 1. Search the code for `TODO`: you'll find one in `cuda-getting-started/src/main.cpp` on line 13. Change the string to your name, rebuild, and run. (`m_yourName = "TODO: YOUR NAME HERE";`)
 2. Take a screenshot of the window (including title bar) and save it to the `images` directory for Part 4.
@@ -106,41 +155,14 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
     * Use `git commit` to save a version of your code including your changes.Write a short message describing your changes.
     * Use `git push` to sync your code history to the GitHub server.
 
-### Part 3.1.2: Analyze
-
-#### Windows
-
-1. Go to the Nsight menu in Visual Studio.
-    * If you dont see the Nsight Menu in the top panel then it's located inside the Extensions Menu, considering you have setup your environment correctly.*
-    * *Enable `Nsight` menu to appear in the top Navigation panel instead of the Extensions Menu*
-        * Click the `Extensions` button located at the top Panel
-        * Click on `Customize Menu..` button located in the 'Extensions' drop down menu. This will open up the Customise Dialog Box.
-        * Un-check `Nsight Developer Tools Inegration` and `Nsight Visual Studio Edition` located in the Extensions Menu of the Customise Dialog Box.
-        * Restart Visual Studio.
-2. Click on *Nsight Systems _Your Version of Nsight_*.
-3. Select *Trace*.
-4. Click *Target for profiling...*. Select your machine under 'Localhost connection'.
-5. Under *Trace Settings* that now appear, enable tracing for CUDA and OpenGL.
-6. Click *Start*.
-    * If you have switchable graphics (NVIDIA Optimus), see the note in Part 3.1.
-7. Run the program for a few seconds, then close it.
-8. At the top of the report page, select *Timeline* from the drop-down menu.
-9. Take a screenshot of this tab and save it to `images`, for Part 4.
-
-#### Linux
-
-1. Open your project in Nsight.
-2. *Run*->*Profile*.
-3. Run the program for a few seconds, then close it.
-4. Take a screenshot of the timeline and save it to `images`, for Part 4.
-
 ### Part 3.1.3: Nsight Debugging
+
+CUDA programs that run on the GPU require the Nsight Debugger for inspection. In this section, you'll learn about setting breakpoints, inspecting variables, configuring windows, controlling execution, and more.
 
 #### Windows
 
 1. Switch your build configuration to "Debug" and `Rebuild` the solution.
 2. Select the Nsight menu in Visual Studio and select *Start CUDA Debugging (Next-Gen)*.
-    * If you have an older GPU, like GTX 9xx or older, then you may have to use *Start CUDA Debugging (Legacy)*.
 3. If prompted, select the *Connect Unsecurely* option to start Nsight.
 4. Exit the app.
 5. Now place a breakpoint at Line 79 of `kernel.cu` => `if (x <= width && y <= height) {`
@@ -163,22 +185,63 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
     * Optionally, you may choose to double click on any one of the boxes in the "Threads" grid and watch the *Autos* window update the value.
 14. Play around with Nsight debugger as much as you want.
 
+More documentation for Nsight Visual Studio Edition is available at https://docs.nvidia.com/nsight-visual-studio-edition/index.html.
+
 #### Linux
 
-1. Create a directory called `eclipse` under `Project0-Getting-Started`. `eclipse` should be a sibling directory to `cuda-getting-started`. (The name `eclipse` itself is not important, but that's the example here)
-2. CD into the `eclipse` directory, then run the command
-    ```
-    cmake ../cuda-getting-started -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug
-    ```
-    * Note: Change `Debug` to `Release` when running the profiler.
-3. Open Nsight Eclipse Edition
-4. Select File -> Import.
-5. Then in the pop up box, select `General -> Existing Project into Workspace".
-6. In `Select Root Directory` browse to the `eclipse` directory.
-7. This will populate the box below with `cis5650_getting_started.....`.
-8. Select this and click "Finish".
+1. Open your `cuda-getting-started` project in Nsight Eclipse Edition.
+    * In the Project Explorer view, select your project to debug. Make sure the project executable is compiled and no error markers are shown on the project.
+2. Right click on the project and go to *Debug As > NVIDIA CUDA GDB Debugger* menu.
+3. You will be offered to switch perspective when you run debugger for the first time. Click “Yes”. Perspective is a window layout preset specifically designed for a particular task.
+4. Application will suspend in the main function. At this point there is no GPU code running.
+5. Now place a breakpoint at Line 79 of `kernel.cu` => `if (x <= width && y <= height) {`
+6. Restart the CUDA Debugging. This time, the breakpoint should be hit.
+    * The *Variable* and *CUDA* debugging tabs should appear.
+
+More document for Nsight Eclipse Edition is available at https://docs.nvidia.com/cuda/nsight-eclipse-plugins-guide/index.html.
 
 Now you can carry on running the executable and other profiler and debug steps.
+
+### Part 3.1.4: Nsight Systems
+
+NVIDIA Nsight Systems is a system-wide performance analysis tool designed to visualize an application’s algorithms, identify the largest opportunities to optimize, and tune to scale efficiently across any quantity or size of CPUs and GPUs, from large servers to our smallest systems-on-a-chip (SoCs).
+
+Full Nsight Systems User Guide is available at https://docs.nvidia.com/nsight-systems/UserGuide/index.html.
+
+#### Nsight Systems on Windows & Linux
+
+1. From Start Menu, open "Nsight Systems"
+2. Create a new project if needed.
+3. From *Select target for profiling`, select your local computer.
+4. Under *Target application -> Command line with arguments*, enter the full path to the compiled executable (from your previous build).
+    * You may optionally do multiple runs with different options selected to explore the capabilities of Nsight Systems.
+5. Run the program for a few seconds, then close it.  Then wait for Systems to generate the report.
+6. Go through the *Analysis Summary* and the *Timeline*.
+7. Take a screenshot of this tab and save it to `images`, for Part 4.
+
+### Part 3.1.5: Nsight Compute
+
+NVIDIA Nsight Compute is an interactive profiler for CUDA and NVIDIA OptiX that provides detailed performance metrics and API debugging via a user interface and command-line tool. Users can run guided analysis and compare results with a customizable and data-driven user interface, as well as post-process and analyze results in their own workflows.
+
+Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight-compute/.
+
+**NOTE**: Enable NVIDIA GPU Performance Counters using https://developer.nvidia.com/ERR_NVGPUCTRPERM.
+
+#### Nsight Compute on Windows & Linux
+
+1. From Windows Start Menu, open "Nsight Compute"
+2. Create a new project if needed.
+3. Click *Start Activity*.
+4. In the pop up window
+    1. Select the *Application Executable* as the compiled executable (from your previous build).
+    2. Set the path for the *Output File*. It is common to use the `.ncp-rep` as extension, but you can use anything, eg. `.txt`.
+    * Optionally, set the *Working Directory*.
+    * Optionally, you can run this multiple times with different filter, metrics, etc.
+5. Click *Launch*.
+    * You may need to enable ports in your firewall. If you see error regarding `GPU Performance Counters`, see the note above.
+6. Run the program for a few seconds, then close it.  Then wait for Compute to generate the report.
+7. Browse the report in Compute. The more you explore, the more it will be helpful later.
+8. Take a screenshot of the *Summary* and *Details* tab and save it to `images`, for Part 4.
 
 ### Part 3.2: WebGL
 
