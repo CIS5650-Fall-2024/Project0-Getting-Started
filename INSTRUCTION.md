@@ -49,11 +49,9 @@ Note: Do not clone projects directly from the [CIS5650-Fall-2024](https://github
 * [How to use GitHub](https://guides.github.com/activities/hello-world/)
 * [How to use Git](http://git-scm.com/docs/gittutorial)
 
-## Part 3: Project Instructions
+## Part 2.1: Project Instructions - CUDA
 
-### Part 3.1: CUDA
-
-### Part 3.1.1: Build and Run CUDA Getting Started
+### Part 2.1.1: Build and Run CUDA Getting Started
 
 Build and run the project and follow the instructions below to complete your README.
 
@@ -145,17 +143,17 @@ Once you have installed Nsight Eclipse Edition, you are ready to create your pro
 6. If you see an errors, try the FAQ above.
 7. From the *Run* menu, *Run*. Select "Local C/C++ Application" and select the `cis5650_` binary.
 
-### Part 3.1.2: Modify the CUDA Project and Take a Screenshot
+### Part 2.1.2: Modify the CUDA Project and Take a Screenshot
 
 1. Search the code for `TODO`: you'll find one in `cuda-getting-started/src/main.cpp` on line 13. Change the string to your name, rebuild, and run. (`m_yourName = "TODO: YOUR NAME HERE";`)
-2. Take a screenshot of the window (including title bar) and save it to the `images` directory for Part 4.
+2. Take a screenshot of the window (including title bar) and save it to the `images` directory for Part 3.
 3. You're done with some code changes now; make a commit!
     * Make sure to `git add` the `main.cpp` file.
     * Use `git status` to make sure you didn't miss anything.
     * Use `git commit` to save a version of your code including your changes.Write a short message describing your changes.
     * Use `git push` to sync your code history to the GitHub server.
 
-### Part 3.1.3: Nsight Debugging
+### Part 2.1.3: Nsight Debugging
 
 CUDA programs that run on the GPU require the Nsight Debugger for inspection. In this section, you'll learn about setting breakpoints, inspecting variables, configuring windows, controlling execution, and more.
 
@@ -202,7 +200,7 @@ More document for Nsight Eclipse Edition is available at https://docs.nvidia.com
 
 Now you can carry on running the executable and other profiler and debug steps.
 
-### Part 3.1.4: Nsight Systems
+### Part 2.1.4: Nsight Systems
 
 NVIDIA Nsight Systems is a system-wide performance analysis tool designed to visualize an application’s algorithms, identify the largest opportunities to optimize, and tune to scale efficiently across any quantity or size of CPUs and GPUs, from large servers to our smallest systems-on-a-chip (SoCs).
 
@@ -217,9 +215,9 @@ Full Nsight Systems User Guide is available at https://docs.nvidia.com/nsight-sy
     * You may optionally do multiple runs with different options selected to explore the capabilities of Nsight Systems.
 5. Run the program for a few seconds, then close it.  Then wait for Systems to generate the report.
 6. Go through the *Analysis Summary* and the *Timeline*.
-7. Take a screenshot of this tab and save it to `images`, for Part 4.
+7. Take a screenshot of this tab and save it to `images`, for Part 3.
 
-### Part 3.1.5: Nsight Compute
+### Part 2.1.5: Nsight Compute
 
 NVIDIA Nsight Compute is an interactive profiler for CUDA and NVIDIA OptiX that provides detailed performance metrics and API debugging via a user interface and command-line tool. Users can run guided analysis and compare results with a customizable and data-driven user interface, as well as post-process and analyze results in their own workflows.
 
@@ -241,9 +239,9 @@ Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight
     * You may need to enable ports in your firewall. If you see error regarding `GPU Performance Counters`, see the note above.
 6. Run the program for a few seconds, then close it.  Then wait for Compute to generate the report.
 7. Browse the report in Compute. The more you explore, the more it will be helpful later.
-8. Take a screenshot of the *Summary* and *Details* tab and save it to `images`, for Part 4.
+8. Take a screenshot of the *Summary* and *Details* tab and save it to `images`, for Part 3.
 
-### Part 3.2: WebGL
+### Part 2.2: Project Instructions - WebGL
 
 1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
 2. Check that you have [WebGL support](https://webglreport.com)
@@ -266,7 +264,7 @@ Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight
 
 **Take a screenshot** the output of `https://webglreport.com` or `chrome:\\gpu` and save it to `\images`. Your submission must show that WebGL works on your machine (or any machine you plan to develop on, e.g: Moore or SIGLAB machines).
 
-### Part 3.3: WebGPU
+### Part 2.3: Project Instructions - WebGPU
 
 1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
     * See a list of supported browsers and versions at https://github.com/gpuweb/gpuweb/wiki/Implementation-Status.
@@ -276,7 +274,7 @@ Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight
 
 **Take a screenshot** the output of https://webgpureport.org or any one of https://webgpu.github.io/webgpu-samples/ and save it to `\images`. Your submission must show that WebGPU works on your machine (or any machine you plan to develop on, e.g: Moore or SIGLAB machines).
 
-## Part 4: Write-up
+## Part 3: Write-up
 
 1. Update ALL of the TODOs at the top of this README:
     * Finish your `README.md`
