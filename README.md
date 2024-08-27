@@ -17,14 +17,18 @@ Project 0 Getting Started
 
 ## NSight Systems
 Analysis
+
 ![](images/AnalysisSummary.png)
 Timeline
+
 ![](images/TimelineView.png)
 
 ## NSight Compute
 Details
+
 ![](images/compute_details.png)
 Summary
+
 ![](images/compute_summary.png)
 
 ## WebGL
