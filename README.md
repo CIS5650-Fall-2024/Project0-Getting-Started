@@ -3,11 +3,40 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Michael Mason
+  * [LinkedIn](https://www.linkedin.com/in/mikeymason/), [personal website](https://www.michaelmason.xyz/)
+* Tested on: Windows 11, Ryzen 9 5900HS @ 3.00GHz 16GB, RTX 3080 (Laptop) 8192MB
 
-### (TODO: Your README)
+### Images
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### Part 2.1.2
+
+![part212](part2_1_2.png)
+
+#### Part 2.1.3
+
+![alt text](part2_1_3.png)
+
+#### Part 2.1.4
+
+Analysis Summary Tab
+![alt text](part2_1_4_analysis_summary.png)
+
+Timeline Tab
+![alt text](part2_1_4_timeline.png)
+
+#### Part 2.1.5
+
+Details Tab
+![alt text](part2_1_5_details.png)
+
+Summary Tab
+![alt text](part2_1_5_summary.png)
+
+#### Part 2.2
+
+![alt text](part2_2.png)
+
+#### Part 2.3
+
+![alt text](part2_3.png)
