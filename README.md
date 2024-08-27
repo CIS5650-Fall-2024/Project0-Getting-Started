@@ -19,6 +19,7 @@ Project 0 Getting Started
 Analysis
 
 ![](images/AnalysisSummary.png)
+
 Timeline
 
 ![](images/TimelineView.png)
@@ -27,6 +28,7 @@ Timeline
 Details
 
 ![](images/compute_details.png)
+
 Summary
 
 ![](images/compute_summary.png)
