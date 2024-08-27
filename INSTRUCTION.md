@@ -115,11 +115,25 @@ FAQ & Troubleshooting for Linux
 * The compilation throws linker errors for GLX.
     * Ensure the right libraries (dev versions) are installed for mesa and glx for your distribution.
 
+**Nsight Visual Studio Code Edition**
+
+Nsight Visual Studio Code Edition is the recommended Visual IDE for CIS5650.
+
+1. Open Visual Studio Code
+2. Install the *Nsight Visual Studio Code Edition* extension for VS Code from the marketplace.
+3. Install the *CMake* and *CMake Tools* extensions for VS Code from the marketplace.
+4. Using *File -> Open Folder*, open the `cuda-getting-started` folder.
+5. On the left hand pane, open the `CMake` tab (CMake logo with a wrench).
+6. Under *Project Status*, perform a mouse over. This will reveal a few icons. Click the *Delete Cache and Reconfigure* icon. This will open a command pane. In this, select the *GCC* option or *Unspecified*.
+    * Upon successful completion, this will populate the *Project Outline*.
+7. In the *Project Outline*, right click `cis5650_getting_started` and select *Build*.
+    * This will show the *Output* pane with the compilation log.
+    * You can optionally set the *Set as Build Target* to make it the default build target.
+8. Right click `cis5650_getting_started` again, and this time select `Run in Terminal`. This will start the executable in the terminal and open the window.
+
 **Nsight Eclipse**
 
-On Linux, Eclipse serves as the main IDE and visual debugger for CUDA. The steps to set this up are:
-
-> Note: You may optionally choose to use [Nsight Visual Studio Code Edition](https://docs.nvidia.com/nsight-visual-studio-code-edition/index.html). However, we haven't documented all the steps needed, so if you try it out, please feel free to open a pull request for these instructions. They will be greatly appreciated.
+You can optionally use NVIDIA Nsight Eclipse Edition as the IDE and visual debugger for CUDA. The steps to set this up are:
 
 1. Download and install `Eclipse IDE for C/C++ Developers` from https://www.eclipse.org/downloads/packages/. The suggested steps are https://linuxconfig.org/eclipse-ide-for-c-c-developers-installation-on-ubuntu-22-04, but you can follow different resources too.
 2. To install Nsight Plugin for Eclipse, follow the instructions in https://docs.nvidia.com/cuda/nsight-eclipse-plugins-guide/index.html.
@@ -157,7 +171,7 @@ Once you have installed Nsight Eclipse Edition, you are ready to create your pro
 
 CUDA programs that run on the GPU require the Nsight Debugger for inspection. In this section, you'll learn about setting breakpoints, inspecting variables, configuring windows, controlling execution, and more.
 
-#### Windows
+#### Nsight Debugging on Windows using Nsight Visual Studio Edition
 
 1. Switch your build configuration to "Debug" and `Rebuild` the solution.
 2. Select the Nsight menu in Visual Studio and select *Start CUDA Debugging (Next-Gen)*.
@@ -185,7 +199,41 @@ CUDA programs that run on the GPU require the Nsight Debugger for inspection. In
 
 More documentation for Nsight Visual Studio Edition is available at https://docs.nvidia.com/nsight-visual-studio-edition/index.html.
 
-#### Linux
+#### Nsight Debugging on Linux using Nsight Visual Studio Code Edition
+
+1. Open your `cuda-getting-started` project in Visual Studio Code.
+2. On the left hand pane, open the `CMake` tab (CMake logo with a wrench).
+3. In the *Project Outline*, right click `cis5650_getting_started` and select *Set as Launch/Debug Target*.
+4. On the left hand pane, open the *Run and Debug* tab.
+5. Click the *Gear* icon next to the dropdown.
+6. Set up your `launch.json` to look like this, then save the file.
+    ```json
+    {
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "CUDA C++: Launch",
+                "type": "cuda-gdb",
+                "request": "launch",
+                "program": "${workspaceFolder}/build/bin/cuda-getting-started"
+            }
+        ]
+    }
+    ```
+7. Click the Debug button. Select *CUDA C++: Launch* option if required.
+8. Exit the app after it has run for a few seconds. You can use the *Debug Console* to monitor any command line output.
+9. Now place a breakpoint at Line 79 of `kernel.cu` => `if (x <= width && y <= height) {`
+10. Restart the Debugging. This time, the breakpoint should be hit.
+    * The *Variables* debugging tabs should appear at the top left (default configuration).
+    * You can also add your work variables to watch in the *Watch* pane.
+    * Notice the values that are in the autos.
+11. More steps to inspect your code can be found at https://docs.nvidia.com/nsight-visual-studio-code-edition/cuda-inspect-state/index.html
+21. Play around with Nsight debugger as much as you want. The debugger will be your best friend for CUDA Programming.
+
+#### Nsight Debugging on Linux using Nsight Eclipse Edition
 
 1. Open your `cuda-getting-started` project in Nsight Eclipse Edition.
     * In the Project Explorer view, select your project to debug. Make sure the project executable is compiled and no error markers are shown on the project.
