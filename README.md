@@ -3,11 +3,38 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Joanna Fisch
+  * [LinkedIn](https://www.linkedin.com/in/joanna-fisch-bb2979186/), [Website](https://sites.google.com/view/joannafischsportfolio/home)
+* Tested on: Windows 11, i7-12700H @ 2.30GHz 16GB, NVIDIA GeForce RTX 3060 (Laptop)
 
-### (TODO: Your README)
+### Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+## CUDA Installation
+![](images/screenshot_1.png)
+
+## NSight Debugging
+![](images/Autos_WarpInfo.png)
+
+## NSight Systems
+Analysis
+
+![](images/AnalysisSummary.png)
+
+Timeline
+
+![](images/TimelineView.png)
+
+## NSight Compute
+Details
+
+![](images/compute_details.png)
+
+Summary
+
+![](images/compute_summary.png)
+
+## WebGL
+![](images/webGL.png)
+
+## WebGPU
+![](images/webGPU.png)
