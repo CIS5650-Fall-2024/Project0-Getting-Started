@@ -11,3 +11,12 @@ Project 0 Getting Started
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
+
+![](images/part2.1.2.png)
+![](images/part2.1.3.png)
+![](images/part2.1.4Analysis.png)
+![](images/part2.1.4Summary.png)
+![](images/part2.1.5Detail.png)
+![](images/part2.1.5Summary.png)
+![](images/part2.1.6.png)
+![](images/part2.1.7.png)
