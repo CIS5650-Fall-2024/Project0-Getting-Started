@@ -3,11 +3,16 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Akiko Zhu
+  * [LinkedIn](https://www.linkedin.com/in/geming-akiko-zhu-b6705a255/)
+* Tested on: Windows 11, i9-12900H @ 2.50GHz 16GB, RTX 3070Ti 8GB (Personal)
 
-### (TODO: Your README)
-
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### README
+![](images/01.png)
+![](images/02.png)
+![](images/03_01.png)
+![](images/03.png)
+![](images/04.png)
+![](images/05.png)
+![](images/06.png)
+![](images/07.png)
