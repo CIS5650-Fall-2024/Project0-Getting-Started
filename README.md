@@ -18,6 +18,8 @@ Part 2.1.3
 Part 2.1.4
 ![](images/Part%202.1.4.JPG)
 
+![](images/Part%202.1.4-2.JPG)
+
 Part 2.1.5
 ![](images/Part%202.1.5.JPG)
 
