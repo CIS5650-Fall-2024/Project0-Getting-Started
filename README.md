@@ -3,9 +3,9 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yuhan Liu
+  * [LinkedIn](https://www.linkedin.com/in/yuhan-liu-), [personal website](https://liuyuhan.me/), [twitter](https://x.com/yuhanl_?lang=en), etc.
+* Tested on: Windows 11 Pro, Ultra 7 155H @ 1.40 GHz 32GB, RTX 4060 8192MB 
 
 ### (TODO: Your README)
 
