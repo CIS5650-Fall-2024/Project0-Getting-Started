@@ -9,5 +9,23 @@ Project 0 Getting Started
 
 ### Results
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### Output window with name changed
+![](images/window.png)
+
+#### Debugging info
+![](images/warp_info.png)
+
+#### Nsight System
+![](images/nsight_system.png)
+
+#### Nsight Compute Summary
+![](images/nsight_compute_summary.png)
+
+#### Nsight Compute Detail
+![](images/nsight_compute_detail.png)
+
+#### WebGL Support
+![](images/webgl.png)
+
+#### WebGPU Support
+![](images/webgpu.png)
