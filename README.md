@@ -3,11 +3,19 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Daniel Gerhardt
+  * https://www.linkedin.com/in/daniel-gerhardt-bb012722b/
+* Tested on: Windows 23H2, AMD Ryzen 9 7940HS @ 4GHz 32GB, RTX 4070 8 GB (Personal Laptop)
 
-### (TODO: Your README)
+### Project 0 README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+The following are images reflecting the preparedness of the computer for future projects in the course.
+
+![](images/s1.png)
+![](images/s2.png)
+![](images/s3.png)
+![](images/s4.png)
+![](images/s5.png)
+![](images/s6.png)
+![](images/s7.png)
+![](images/s8.png)
