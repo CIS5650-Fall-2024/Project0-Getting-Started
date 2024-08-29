@@ -13,7 +13,7 @@ CudaRuntime=Static
 CudaToolkitCustomDir=
 DebugInformationFormat=ProgramDatabase
 DebugInformationFormat=ProgramDatabase
-Defines=;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug";CODE_ANALYSIS;_MBCS;;WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug"
+Defines=;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug";_MBCS;;WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug"
 Emulation=false
 EnableVirtualArchInFatbin=true
 ExtensibleWholeProgramCompilation=false
