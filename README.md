@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Akiko Zhu
   * [LinkedIn](https://www.linkedin.com/in/geming-akiko-zhu-b6705a255/)
-* Tested on: Windows 11, i9-12900H @ 2.50GHz 16GB, RTX 3070Ti 16GB (Personal)
+* Tested on: Windows 11, i9-12900H @ 2.50GHz 16GB, RTX 3070Ti 8GB (Personal)
 
 ### (TODO: Your README)
 
