@@ -1,0 +1,3 @@
+C:/Users/hao3/Desktop/Project0-Getting-Started/build/CMakeFiles/cis5650_getting_started.dir
+C:/Users/hao3/Desktop/Project0-Getting-Started/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hao3/Desktop/Project0-Getting-Started/build/CMakeFiles/ZERO_CHECK.dir
