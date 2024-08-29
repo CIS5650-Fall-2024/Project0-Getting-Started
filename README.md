@@ -3,11 +3,28 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Joshua Smith
+  * [LinkedIn](https://www.linkedin.com/in/joshua-smith-32b165158/)
+* Tested on: Ubuntu 20.04, Ryzen 9 3900x @ 4.6GHz, 24GB RTX 4090 (Personal)
 
-### (TODO: Your README)
+### (Screenshots of working env setup)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+
+**2.1.2 Modified executable window**
+![](images/Part2WindowScreenshot.png)
+
+**2.1.4 NSight Systems Analysis Summary and Timeline**
+![](images/analysis_summary.png)
+![](images/timeline_view.png)
+
+**2.1.5 NSight Compute Summary and Details Tab**
+![](images/SummaryTab.png)
+![](images/DetailsTab.png)
+
+**2.2 WebGL chrome:\\\\gpu info**
+![](images/chromegpu.png)
+
+**2.3 WebGpu webgpureport**
+![](images/webgpureport.png)
+
+
