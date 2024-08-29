@@ -4,7 +4,7 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
 * Jichu Mao
-  * (TODO) [LinkedIn](https://www.linkedin.com/in/jichu-mao-a3a980226/), [personal website](https://jichu.art/), etc.
+  * [LinkedIn](https://www.linkedin.com/in/jichu-mao-a3a980226/), [personal website](https://jichu.art/), etc.
 * Tested on: Windows 11,  i7-13700K @ 3.40 GHz, 32GB, RTX 4090 24GB
 
 ### (TODO: Your README)
