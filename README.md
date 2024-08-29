@@ -3,11 +3,38 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yin Tang
+  * [Linkedin](https://www.linkedin.com/in/yin-tang-jackeyty/), [Github](https://github.com/JackeyTY), [Personal Website](https://jackeytang.com/)
+* Tested on: Windows 11 Pro, AMD Ryzen 9 7950X @ 5.00GHz 64GB, NVIDIA GeForce RTX 4090 24GB (personal desktop)
+* GPU: GeForce RTX 4090
+* Compute Capability: 8.9
 
-### (TODO: Your README)
+**Assignment Screenshots**
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+* CUDA Project
+
+![](images/cuda.png)
+
+* VS Nsight Extension Debug
+
+![](images/debug.png)
+
+* Nsight System Report
+
+![](images/nsight_system_1.png)
+
+![](images/nsight_system_2.png)
+
+* Nsight Compute Report
+
+![](images/nsight_compute_1.png)
+
+![](images/nsight_compute_2.png)
+
+* WebGL Support
+
+![](images/webgl.png)
+
+* WebGPU Support
+
+![](images/webgpu.png)
