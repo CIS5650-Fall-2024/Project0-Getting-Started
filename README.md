@@ -3,11 +3,24 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Alyssa Nie
+  * [LinkedIn](https://linkedin.com/in/alyssanie), 
+* Tested on: CETS Virtual Lab Computer Windows 10 Education - 2th Gen Intel(R) Core(TM) i7-12700 2.10 GHz NVIDIA T1000 Intel(R) UHD Graphics 770
 
-### (TODO: Your README)
+### README 
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+This is the setup images. 
+
+![alt text](images/image.png)
+
+![alt text](images/debug.png)
+
+![web gl report](images/web_gl_report.png)
+
+![web gpu report](images/webGPU.png)
+
+### Failed 
+
+Nsight Compute and Nsight Systems do not work because of lack of permissions. 
+
+![failed web systems](images/failed_process_log.png)
