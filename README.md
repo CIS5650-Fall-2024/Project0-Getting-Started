@@ -17,17 +17,17 @@ The image below shows Autos window and the Warp Info.
 
 #### 2-1-4
 The image below shows Analysis Summary of Nsight Systems. 
-![2-1-41](./images/2-1-4 Analysis Summary.png)
+![2-1-41](./images/2-1-4_Analysis_Summary.png)
 
 The image below shows Timeline of Nsight Systems. 
-![2-1-42](./images/2-1-4 Timeline View.png)
+![2-1-42](./images/2-1-4_Timeline_View.png)
 
 #### 2-1-5
 The image below shows Summary of Nsight Systems. 
-![2-1-51](./images/2-1-5 Summary.png)
+![2-1-51](./images/2-1-5_Summary.png)
 
 The image below shows Details of Nsight Systems. 
-![2-1-52](./images/2-1-5 Details.png)
+![2-1-52](./images/2-1-5_Details.png)
 
 #### 2-2
 The image below shows WebGL is supported on my machine. 
