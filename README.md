@@ -11,7 +11,7 @@ Part 2.1.2
 
 ![](images/2-1-2.png)
 
-Part 2.1.3
+Part 2.1.4
 
 ![](images/2-1-3_AnalysisSummary.png)
 
@@ -19,7 +19,7 @@ Part 2.1.3
 
 Part 2.1.5
 
-Nsight Compute does not support Nvidia 10 Series GPUs' Pascal architecture. Waiting for response on CETS Virtual Lab computers.
+Nsight Compute does not support Nvidia 10 Series GPUs' Pascal architecture. Waiting for response on [CETS Virtual Lab computers](https://github.com/kbau121-seas/Project0-Getting-Started/tree/CETS) permissions. [(Related Issue)](https://edstem.org/us/courses/60839/discussion/5194387)
 
 Part 2.2
 
