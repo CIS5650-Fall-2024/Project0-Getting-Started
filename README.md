@@ -36,7 +36,7 @@ WebGL v2
 ![2-2c](images/2-2c.png)
 
 #### 2.3 WebGPU
-[webgpureport](https:/webgpureport.org)
+[webgpureport](https://webgpureport.org)
 ![2-3a](images/2-3a.png)
 Example
 ![2-3b](images/2-3b.png)
