@@ -1,0 +1,24 @@
+﻿  Building Custom Rule C:/Users/Kelin/Desktop/CIS565-Project0/cuda-getting-started/CMakeLists.txt
+  Compiling CUDA source file ..\cuda-getting-started\src\kernel.cu...
+  
+  C:\Users\Kelin\Desktop\CIS565-Project0\build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Users\Kelin\Desktop\CIS565-Project0\cuda-getting-started\external\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir cis5650_.2154BA3B\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -arch=native -Xcompiler="/EHsc -Zi -Ob0" -g  -D_WINDOWS -DGLEW_STATIC -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -DWIN32 -D_WINDOWS -DGLEW_STATIC -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/Fdcis5650_getting_started.dir\Debug\vc143.pdb" -o cis5650_getting_started.dir\Debug\kernel.obj "C:\Users\Kelin\Desktop\CIS565-Project0\cuda-getting-started\src\kernel.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22252): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22958): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22252): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22958): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  kernel.cu
+  tmpxft_000039b8_00000000-8_kernel.cudafe1.cpp
+  glslUtility.cpp
+  main.cpp
+  Generating Code...
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22252,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file '../cuda-getting-started/src/main.cpp')
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include\cuda.h(22958,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  (compiling source file '../cuda-getting-started/src/main.cpp')
+  
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+     Creating library C:/Users/Kelin/Desktop/CIS565-Project0/build/lib/Debug/cis5650_getting_started.lib and object C:/Users/Kelin/Desktop/CIS565-Project0/build/lib/Debug/cis5650_getting_started.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  cis5650_getting_started.vcxproj -> C:\Users\Kelin\Desktop\CIS565-Project0\build\bin\Debug\cis5650_getting_started.exe
