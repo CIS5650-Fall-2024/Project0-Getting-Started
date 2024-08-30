@@ -11,7 +11,7 @@ Project 0 Getting Started
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
-![](images/mayadiazhuizar.png)
-![](images/compute.png)
-![](images/nsight.png)
-![](images/webgpu.png)
+![thing 1](images/mayadiazhuizar.PNG)
+![thing 2](images/compute.PNG)
+![thing 3](images/nsight.PNG)
+![thing 3](images/webgpu.PNG)
