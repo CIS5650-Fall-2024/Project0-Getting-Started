@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/cis5650_getting_started",
+            "environment": [
+                {
+                    "name": "__NV_PRIME_RENDER_OFFLOAD",
+                    "value": "1"
+                },
+                {
+                    "name": "__GLX_VENDOR_LIBRARY_NAME",
+                    "value": "nvidia"
+                }
+            ]
+        }
+    ]
+}
