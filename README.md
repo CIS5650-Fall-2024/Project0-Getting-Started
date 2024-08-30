@@ -3,11 +3,34 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Zhaojin Sun
+  * www.linkedin.com/in/zjsun
+* Tested on: Windows 11, i9-13900HX @ 2.2GHz 64GB, RTX 4090 Laptop 16GB
 
-### (TODO: Your README)
+#### 2-1-2  
+The image below shows the window of my project running normally.
+![2-1-2](./images/2-1-2.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### 2-1-3 
+The image below shows Autos window and the Warp Info.
+![2-1-3](./images/2-1-3.png)
+
+#### 2-1-4
+The image below shows Analysis Summary of Nsight Systems. 
+![2-1-4-1](./images/2-1-4 Analysis Summary.png)
+The image below shows Timeline of Nsight Systems. 
+![2-1-4-2](./images/2-1-4 Timeline View.png)
+
+#### 2-1-5
+The image below shows Summary of Nsight Systems. 
+![2-1-5-1](./images/2-1-5 Summary.png)
+The image below shows Details of Nsight Systems. 
+![2-1-5-2](./images/2-1-5 Details.png)
+
+#### 2-2
+The image below shows WebGL is supported on my machine. 
+![2-2](./images/2-2.png)
+
+#### 2-3
+The image below shows WebGPU is supported on my machine. 
+![2-3](./images/2-3.png)
