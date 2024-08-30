@@ -3,11 +3,14 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Nicholas Liu
+  * [Linkedin](https://www.linkedin.com/in/liunicholas6/)
+* Tested on: Linux Mint 22 Wilma, AMD Ryzen 7 5800X @ 2.512GHz, 32GB RAM, GeForce GTX 1660 Ti
 
-### (TODO: Your README)
+### Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![App](images/App.png)
+![Nsight Systems](images/NsightSystems.png)
+![Nsight Compute](images/NsightCompute.png)
+![WebGL](images/WebGL.png)
+![WebGPU](images/WebGPU.png)
