@@ -14,3 +14,13 @@ This is the setup images.
 ![alt text](images/image.png)
 
 ![alt text](images/debug.png)
+
+![web gl report](images/web_gl_report.png)
+
+![web gpu report](images/webGPU.png)
+
+### Failed 
+
+Nsight Compute and Nsight Systems do not work because of lack of permissions. 
+
+![failed web systems](images/failed_process_log.png)
