@@ -10,10 +10,10 @@ Project 0 Getting Started
 ### (TODO: Your README)
 
 ### Part 2.1.2: Modify the CUDA Project and Take a Screenshot
-![](images/Change_Name.png)
+![modify](./images/Change_Name.PNG)
 
 ### Part 2.1.3: Nsight Debugging
-![](images/CTA_Thread.png)
+![debugging](./images/CTA_Thread.PNG)
 
 ### Part 2.1.4: Nsight Systems
 * blocked by CETS virtual lab admin account issue
@@ -22,11 +22,11 @@ Project 0 Getting Started
 * blocked by CETS virtual lab admin account issue
 
 ### Part 2.2: Project Instructions - WebGL
-![](images/webgl1.png)
-![](images/webgl2.png)
+![webgl1](./images/webgl1.PNG)
+![webgl2](./images/webgl2.PNG)
 
 ### Part 2.3: Project Instructions - WebGPU
-![](images/webgpu.png)
+![webgpu](./images/webgpu.PNG)
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
