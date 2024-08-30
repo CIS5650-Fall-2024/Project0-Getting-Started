@@ -53,3 +53,7 @@ Screenshot of chrome://gpu
 Screenshot of https://webgpu.github.io/webgpu-samples/ demo
 
 ![](images/Screenshot-2.3-webgpu-demo.png)
+
+Screenshot of WebGPU report
+
+![](images/Screenshot-2.3-webgpu-report.png)
