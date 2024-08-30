@@ -3,11 +3,27 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Deze Lyu
+* Tested on: Windows 11, AMD Ryzen 5 5600U @ 2.30GHz 16GB, NVIDIA GeForce MX450 9142MB
 
-### (TODO: Your README)
+### Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### Part 2.1.2: Modify the CUDA Project and Take a Screenshot
+![](images/Image0.png)
+
+#### Part 2.1.3: Nsight Debugging
+![](images/Image1.png)
+
+#### Part 2.1.4: Nsight Systems
+![](images/Image2.png)
+![](images/Image3.png)
+
+#### Part 2.1.5: Nsight Compute
+![](images/Image4.png)
+![](images/Image5.png)
+
+#### Part 2.2: Project Instructions - WebGL
+![](images/Image6.png)
+
+#### Part 2.3: Project Instructions - WebGPU
+![](images/Image7.png)

@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2154BA3B-A399-3B85-9175-4CF883B983EB}|cis5650_getting_started.vcxproj|C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2154BA3B-A399-3B85-9175-4CF883B983EB}|cis5650_getting_started.vcxproj|C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\kernel.cu",
+              "RelativeDocumentMoniker": "..\\cuda-getting-started\\src\\kernel.cu",
+              "ToolTip": "C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\kernel.cu",
+              "RelativeToolTip": "..\\cuda-getting-started\\src\\kernel.cu",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAmwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-30T18:35:51.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\cuda-getting-started\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\Kelin\\Desktop\\CIS565-Project0\\cuda-getting-started\\src\\main.cpp",
+              "RelativeToolTip": "..\\cuda-getting-started\\src\\main.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-30T17:26:56.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
