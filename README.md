@@ -3,11 +3,28 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Kyle Bauer
+  * [LinkedIn](https://www.linkedin.com/in/kyle-bauer-75bb25171/), [personal website](), [twitter](https://x.com/KyleBauer414346), etc.
+* Tested on: Ubuntu 24.04, AMD Ryzen 5 5600G @ 3.9GHz 16GB, GeForce GTX 1070 8GB
 
-### (TODO: Your README)
+Part 2.1.2
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](images/2-1-2.png)
+
+Part 2.1.3
+
+![](images/2-1-3_AnalysisSummary.png)
+
+![](images/2-1-3_Timeline.png)
+
+Part 2.1.5
+
+Nsight Compute does not support Nvidia 10 Series GPUs' Pascal architecture. Waiting for response on CETS Virtual Lab computers.
+
+Part 2.2
+
+![](images/2-2.png)
+
+Part 2.3
+
+![](images/2-3.png)
