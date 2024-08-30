@@ -8,7 +8,7 @@ Project 0 Getting Started
 * Tested on: Windows 11, i9-13900HX @ 2.2GHz 64GB, RTX 4090 Laptop 16GB
 
 #### 2-1-2  
-The image below shows the window of my project running normally.
+The image below shows the window of my project executes normally.
 ![2-1-2](./images/2-1-2.png)
 
 #### 2-1-3 
