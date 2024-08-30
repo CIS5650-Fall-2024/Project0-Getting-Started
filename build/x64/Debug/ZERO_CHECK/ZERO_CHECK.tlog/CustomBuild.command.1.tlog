@@ -1,0 +1,10 @@
+^C:\USERS\HAO3\DESKTOP\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\71F67217DB158963FFBE91C2741BECB3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/hao3/Desktop/Project0-Getting-Started/cuda-getting-started -BC:/Users/hao3/Desktop/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hao3/Desktop/Project0-Getting-Started/build/cis5650_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

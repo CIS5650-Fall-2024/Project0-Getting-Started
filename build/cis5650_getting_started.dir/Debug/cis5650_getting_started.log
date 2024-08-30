@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/hao3/Desktop/Project0-Getting-Started/cuda-getting-started/CMakeLists.txt
+  Compiling CUDA source file ..\cuda-getting-started\src\kernel.cu...
+  
+  C:\Users\hao3\Desktop\Project0-Getting-Started\build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Users\hao3\Desktop\Project0-Getting-Started\cuda-getting-started\external\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir cis5650_.DB4D6A06\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -arch=native -Xcompiler="/EHsc -Zi -Ob0" -g  -D_WINDOWS -DGLEW_STATIC -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -DWIN32 -D_WINDOWS -DGLEW_STATIC -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/Fdcis5650_getting_started.dir\Debug\vc143.pdb" -o cis5650_getting_started.dir\Debug\kernel.obj "C:\Users\hao3\Desktop\Project0-Getting-Started\cuda-getting-started\src\kernel.cu" 
+  kernel.cu
+  tmpxft_00001c64_00000000-8_kernel.cudafe1.cpp
+  glslUtility.cpp
+  main.cpp
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+     Creating library C:/Users/hao3/Desktop/Project0-Getting-Started/build/lib/Debug/cis5650_getting_started.lib and object C:/Users/hao3/Desktop/Project0-Getting-Started/build/lib/Debug/cis5650_getting_started.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  cis5650_getting_started.vcxproj -> C:\Users\hao3\Desktop\Project0-Getting-Started\build\bin\Debug\cis5650_getting_started.exe

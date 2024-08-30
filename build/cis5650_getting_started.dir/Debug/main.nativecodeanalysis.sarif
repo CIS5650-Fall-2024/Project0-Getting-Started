@@ -1,0 +1,163 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33813.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/src/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c91c5c5dad1f549a2d01574bf044aadc46099f7bbc1ddddfa4c69f67fd119832"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/external/include/gl/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/external/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "0ada618b31fe046b8d2872b5efeda0f30a27831ccce53225e97e3b5f73f149d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/cuda_runtime_api.h"
+          },
+          "hashes": {
+            "sha-256": "8c0e6ef7b611a20c47286c51479b57ba9af27b360aea99d58a4aa6e9375ca792"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/crt/host_defines.h"
+          },
+          "hashes": {
+            "sha-256": "086310aafabe0270fc1230cd903d025501617b7fcc810b7589c53f3d82fff8f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/builtin_types.h"
+          },
+          "hashes": {
+            "sha-256": "e75d7426f7b4e8abcd6e3cdd0631fa9577a6c5f8cd31f1ff2996e79d9b5ab4a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/device_types.h"
+          },
+          "hashes": {
+            "sha-256": "2416b764cb308e6d9e93268826f3918f5a05e760d28e49c112ff9c732491e328"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/driver_types.h"
+          },
+          "hashes": {
+            "sha-256": "b4b066e9d7f175b1380ce312c8d152527925eeb2ee82ceab98b9f42d4346a069"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/vector_types.h"
+          },
+          "hashes": {
+            "sha-256": "add5b60c66a0bbdf999dd8475c2b95c713dc9f862e019864c882be8f7b7c4f6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/surface_types.h"
+          },
+          "hashes": {
+            "sha-256": "863530cd094f387b4c4c0ee428055c91ea2733fb0a13c93136ceec9b33827c57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/texture_types.h"
+          },
+          "hashes": {
+            "sha-256": "1887d9c33528c4d841b509f0cd586e7602d201274959c53c87ca5917b7e7cfed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/cuda_device_runtime_api.h"
+          },
+          "hashes": {
+            "sha-256": "aeacd8be0a5b09f0c906fecd4c4eb6a8360c02014c84a0f0413de07e2b0bab22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/cuda_gl_interop.h"
+          },
+          "hashes": {
+            "sha-256": "a4a4041049b59206543d55fdc6c0720b245afd933bf3c298e9d9a2f4a8ac1de1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/src/main.hpp"
+          },
+          "hashes": {
+            "sha-256": "f77d4139749c096f457200e3b80d3f6994722727c52d38586618d76d2db0d3cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/src/glslutility.hpp"
+          },
+          "hashes": {
+            "sha-256": "48b0cc9434bb593c2d4aa5dd1d7e5b3a10ed76de11ae49922e2a53cf8729e4c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hao3/desktop/project0-getting-started/cuda-getting-started/src/kernel.h"
+          },
+          "hashes": {
+            "sha-256": "90e9ca7e2c7663102d60f9ae1c2f8b62fe3030e29c6b06f755c3be2a0bd7c08e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/nvidia gpu computing toolkit/cuda/v12.5/include/cuda.h"
+          },
+          "hashes": {
+            "sha-256": "f6eb702fceeed8e95c590703f41e1d06318b239ecd2c666455b96f684d4a682f"
+          }
+        }
+      ]
+    }
+  ]
+}
