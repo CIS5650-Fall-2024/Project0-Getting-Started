@@ -6,10 +6,27 @@ Project 0 Getting Started
 * Xinran Tao
   * [LinkedIn](https://www.linkedin.com/in/xinran-tao/), [Personal Website](https://www.xinrantao.com/), [GitHub](https://github.com/theBoilingPoint).
 * Tested on: 
-  - (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
-  - Ubuntu 
+  - Ubuntu 22.04, i7-11700K @ 3.60GHz × 16, RAM 32GB, GeForce RTX 3080 Ti 12GB (Personal)
 
-### (TODO: Your README)
+### Screenshots
+#### Part 2.1.2: Modify the CUDA Project and Take a Screenshot
+![](images/part_2.1.2.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### Part 2.1.3: Nsight Debugging
+For this part, we are only required to attach screenshots for Windows according to `INSTRUCTION.md`. Nonetheless, I have attached the screenshot for reaching the breakpoint on my Linux system.
+
+![](images/part_2.1.3.png)
+
+#### Part 2.1.4: Nsight Systems
+![](images/part_2.1.4_summary.png)
+![](images/part_2.1.4_timeline.png)
+
+#### Part 2.1.5: Nsight Compute
+![](images/part_2.1.5_details.png)
+![](images/part_2.1.5_summary.png)
+
+#### Part 2.2: Project Instructions - WebGL
+![](images/part_2.2.png)
+
+#### Part 2.3: Project Instructions - WebGPU
+![](images/part_2.3.png)
