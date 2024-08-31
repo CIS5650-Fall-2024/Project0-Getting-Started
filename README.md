@@ -3,11 +3,15 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Maya Diaz Huizar
+* https://www.linkedin.com/in/maya-huizar-12a643306/
+* Tested on: Windows 22H2, R7-5800X @ 3.8 GHz 32GB, RTX 3080 FE 10GB VRAM (Personal PC)
+---> will likely switch to linux for next homework, waiting for SSD so i can dual boot. will revert to windows if i can't get something to work.
 
-### (TODO: Your README)
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
+![thing 1](images/mayadiazhuizar.PNG)
+![thing 2](images/compute.PNG)
+![thing 3](images/nsight.PNG)
+![thing 3](images/webgpu.PNG)
