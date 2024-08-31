@@ -15,6 +15,10 @@ Project 0 Getting Started
 ![](images/2.1.3.png)
 
 ## NSight Systems
+* Analysis Summary
+![](images/2.1.4.2.png)
+
+* Timeline
 ![](images/2.1.4.png)
 
 ## NSight Compute
