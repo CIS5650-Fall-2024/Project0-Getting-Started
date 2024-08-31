@@ -3,11 +3,24 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Jichu Mao
+  * [LinkedIn](https://www.linkedin.com/in/jichu-mao-a3a980226/), [personal website](https://jichu.art/), etc.
+* Tested on: Windows 11,  i7-13700K @ 3.40 GHz, 32GB, RTX 4090 24GB
 
-### (TODO: Your README)
-
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+README
+====================
+Scrennshots as follows:
+## Program
+![Program](images/Program.jpg)
+## CUDADebugger
+![CUDADebugger](images/CUDADebugger.jpg)
+## NsightSystem
+![NsightSys](images/NsightSys.jpg)
+## NsightCompute
+![NsightCompute](images/NsightCompute.jpg)
+![NsightCompute2](images/NsightCompute2.jpg)
+## WebGLReport
+![WebGLReport](images/WebGLReport.jpg)
+![WebGLReport2](images/WebGLReport2.jpg)
+## WebGPUReport
+![WebGPUReport](images/WebGPUReport.jpg)
