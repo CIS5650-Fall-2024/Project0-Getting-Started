@@ -5,37 +5,36 @@ Project 0 Getting Started
 
 * Nadine Adnane
   * [LinkedIn](https://www.linkedin.com/in/nadnane/)
-* Tested on: 
-My personal laptop (ASUS ROG Zephyrus M16)
-OS: Windows 11
-Processor: 12th Gen Intel(R) Core(TM) i9-12900H, 2500 Mhz, 14 Core(s), 20 Logical Processor(s) 
-GPU: NVIDIA GeForce RTX 3070 Ti Laptop GPU
+* Tested on my personal laptop (ASUS ROG Zephyrus M16):
+* **OS:** Windows 11
+* **Processor:** 12th Gen Intel(R) Core(TM) i9-12900H, 2500 Mhz, 14 Core(s), 20 Logical Processor(s) 
+* **GPU:** NVIDIA GeForce RTX 3070 Ti Laptop GPU
 
-### Results
+## Compute Capability of NVIDIA GeForce RTX 3070 Ti Laptop GPU
+- 8.6
+<img src="images/compute_capability.png" width="500">
 
-Compute Capability of NVIDIA GeForce RTX 3070 Ti Laptop GPU: 8.6
-![](images/compute_capability.png)
+## CUDA Project
+<img src="images/cuda_project.png" width="500">
 
-CUDA Project
-![](images/cuda_project.png)
+## Autos and Warp Info
+<img src="images/autos_and_warp_info.png" width="900">
 
-Autos and Warp Info
-![](images/autos_and_warp_info.png)
+## NSight Systems Timeline
+<img src="images/nsight_systems_timeline.png" width="900">
 
-NSight Systems Timeline
-![](images/nsight_systems_timeline.png)
+## NSight Systems Analysis Summary
+<img src="images/nsight_systems_analysis_summary.png" width="900">
 
-NSight Systems Analysis Summary
-![](images/nsight_systems_analysis_summary.png)
+## NSight Compute Details
+<img src="images/nsight_compute_details.png" width="900">
 
-NSight Compute Details
-![](images/nsight_compute_details.png)
+## NSight Compute Summary
+<img src="images/nsight_compute_summary.png" width="900">
 
-NSight Compute Summary
-![](images/nsight_compute_summary.png)
+## WebGL Support ✅
+<img src="images/webGL.png" width="500">
 
-WebGL Support
-![](images/webGL.png)
+## WebGPU Support ✅
+<img src="images/webGPU.png" width="500">
 
-WebGPU Support
-![](images/webGPU.png)
