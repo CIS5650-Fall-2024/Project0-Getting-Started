@@ -20,16 +20,16 @@ Project 0 Getting Started
 ## Autos and Warp Info
 <img src="images/autos_and_warp_info.png" width="900">
 
-## NSight Systems Timeline
+## Nsight Systems Timeline
 <img src="images/nsight_systems_timeline.png" width="900">
 
-## NSight Systems Analysis Summary
+## Nsight Systems Analysis Summary
 <img src="images/nsight_systems_analysis_summary.png" width="900">
 
-## NSight Compute Details
+## Nsight Compute Details
 <img src="images/nsight_compute_details.png" width="900">
 
-## NSight Compute Summary
+## Nsight Compute Summary
 <img src="images/nsight_compute_summary.png" width="900">
 
 ## WebGL Support ✅
