@@ -3,11 +3,29 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Matt Schwartz
+  * [LinkedIn](https://www.linkedin.com/in/matthew-schwartz-37019016b/), [personal website](https://mattzschwartz.web.app/) (needs some updating! :D).
+* Tested on: Personal laptop, Windows 10, Intel Core i7-10750 CPU @ 2.60GHz, GEForce RTX 2060
 
-### (TODO: Your README)
+### README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+
+CUDA App with my name in the title bar:
+![CUDA App with my name in the title bar](images/ScreenshotWithMyName.png)
+
+
+NSight Debugging: Warp Info and Autos:
+![NSight Debugging: Warp Info and Autos](images/WarpInfoAndAutosWindow.png)
+
+NSight Systems Summary / Timeline:
+![NSight Systems Summary](images/AnalysisSummary.png)
+![NSight Systems Timeline](images/TimelineView.png)
+
+NSight Compute Summary:
+![NSight Compute Summary](images/NsightComputeReport.png)
+
+WebGL Report:
+![WebGLReport](images/WebGL.png)
+
+WebGPU Report:
+![WebGPU Report](images/WebGPUReport.png)
