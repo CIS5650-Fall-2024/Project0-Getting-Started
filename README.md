@@ -45,7 +45,7 @@ Here are the images of running [Nsight Compute](https://docs.nvidia.com/nsight-c
 
 ### Part 2.2: WebGL
 
-Here are the screenshots for checking the status of WebGL support on my computer. The first one is from https://webglreport.com and the second one is from chrome:\\\\gpu. You can see that WebGL is supported on my machine, and the generated report from `chrome:\\\\gpu` is available [here](reports/about-gpu.txt) as `reports/about-gpu.txt`.
+Here are the screenshots for checking the status of WebGL support on my computer. The first one is from https://webglreport.com and the second one is from chrome:\\\\gpu. You can see that WebGL is supported on my machine, and the generated report from `chrome:\\gpu` is available [here](reports/about-gpu.txt) as `reports/about-gpu.txt`.
 
 ![](images/chrome_webglreport_image.png)
 
