@@ -9,5 +9,18 @@ Project 0 Getting Started
 
 README
 ====================
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+Scrennshots as follows:
+## Program
+![Program](images/Program.jpg)
+## CUDADebugger
+![CUDADebugger](images/CUDADebugger.jpg)
+## NsightSystem
+![NsightSys](images/NsightSys.jpg)
+## NsightCompute
+![NsightCompute](images/NsightCompute.jpg)
+![NsightCompute2](images/NsightCompute2.jpg)
+## WebGLReport
+![WebGLReport](images/WebGLReport.jpg)
+![WebGLReport2](images/WebGLReport2.jpg)
+## WebGPUReport
+![WebGPUReport](images/WebGPUReport.jpg)
