@@ -13,7 +13,7 @@ Project 0 Getting Started
 
 ## Nsight Debugging
 ### Breakpoint condition set to index == 1025
-In the snapshot, we reside in block index (14, 0, 0) and thread index (1, 1, 0).
+In the snapshot, we reside in block index (x = 14, y = 0, z = 0) and thread index (x = 1, y = 1, z = 0).
 
 The block index is represented by both:
 
