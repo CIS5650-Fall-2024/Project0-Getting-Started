@@ -13,8 +13,19 @@ Project 0 Getting Started
 
 ## Nsight Debugging
 ### Breakpoint condition set to index == 1025
-The block index shows correspondance between variable blockIdx in the Autos window and CTA under the Shader Info column within Warp Info.
-The thread index shows correspondance where if you look at Thread under Shader Info within Warp Info, in the highlighted row the value (0, 0, 0) is the first index of the 4 green segments to the right. The 2 green segments on the left hold value 0 for y (x, 0, z), and the right 2 segments hold value 1 for y (x, 1, z). Within each set of 2 segments, there are 16 sub-segments (8 sub-segments in each segment). From left to right, they hold the value 0 to 15, and this value is given to x. This shows why the threadIdx is {x = 1, y = 1, z = 0} for the sub-segment with the yellow arrow and red background.
+In the snapshot, we reside in block index (14, 0, 0) and thread index (1, 1, 0).
+
+The block index is represented by both:
+
+1) variable blockIdx in the Autos window, and
+2) in the Warp Info window - CTA in the Shader Info column
+
+The thread index is represented by both:
+
+1) variable threadIdx in the Autos window, and
+2) in the Warp Info window - a combination of Thread in the Shader Info column and the yellow arrow in a red background in the Threads column
+
+We deduce the threadIdx from the Warp Info window by first taking the value of Thread (x = tx, y = ty, z = tz), which in the snapshot is value (x = 0, y = 0, z = 0) in the highlighted row. This value is the threadIdx of the leftmost square of the 4 green groups of squares (segments) in the Threads column. From within the Threads column, the 2 leftmost segments hold the same y value as Thread's y value (ty), and the 2 rightmost segments hold a y value of ty + 1. In the snapshot, this gives us threadIdxs of (x, ty = 0, 0) and (x, ty + 1 = 1, 0), respectively. Both 2 leftmost segments and 2 rightmost segments consist of 16 squares. In each of the 2 segments, each square is given an threadIdx x value from 0 to 15, left to right. This gives the square with a yellow arrow in a red background an x value of 1, and ultimately proves why the threadIdx of that square is (x = 1, y = 1, z = 0).
 
 ![Nsight_Debugging](images/NsightDebugging.PNG)
 
