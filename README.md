@@ -8,7 +8,7 @@ Project 0 Getting Started
 * Tested on: Windows 10, i7-9750H @ 2.60GHz 32 GB, RTX 2060 6GB (Personal)
 
 ## CUDA Compute Capability
-### The CUDA Compute Capability of the RTX 2060 is 7.5 as displayed in the following image:
+### The CUDA Compute Capability of the RTX 2060 is 7.5 as displayed in the following image
 ![Cuda_Compute_Capability](images/CudaComputeCapability.PNG)
 
 ## Nsight Debugging
@@ -18,15 +18,15 @@ The thread index shows correspondance where if you look at Thread under Shader I
 ![Nsight_Debugging](images/NsightDebugging.PNG)
 
 ## Nsight Systems
-#### Analysis Summary:
+### Analysis Summary
 ![Nsight_Systems_Analysis_Summary](images/NsightSystems_AnalysisSummary.PNG)
-#### Timeline View:
+### Timeline View
 ![Nsight_Systems_Timeline](images/NsightSystems_Timeline.PNG)
 
 ## Nsight Compute
-#### Summary:
+### Summary
 ![Nsight_Compute_Summary](images/NsightCompute_Summary.PNG)
-#### Details:
+### Details
 ![Nsight_Compute_Details](images/NsightCompute_Details.PNG)
 
 ## WebGL 2 Compatability
@@ -34,9 +34,9 @@ The thread index shows correspondance where if you look at Thread under Shader I
 ![WebGL_2_Compatibility](images/WebGL_2_Compatibility.PNG)
 
 ## WebGPU Compatability
-#### From https://webgpureport.org
+### From https://webgpureport.org
 ![WebGPU_Compatibility_0](images/WebGPU_Compatibility_0.PNG)
-#### From https://webgpu.github.io/webgpu-samples/?sample=instancedCube
+### From https://webgpu.github.io/webgpu-samples/?sample=instancedCube
 ![WebGPU_Compatibility_1](images/WebGPU_Compatibility_1.PNG)
 
 
