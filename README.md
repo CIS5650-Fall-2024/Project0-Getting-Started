@@ -20,7 +20,7 @@
 
 ### NSight Compute Details
 
-![](images/details.png)
+![](images/details.PNG)
 
 ### NSight Compute Summary
 
