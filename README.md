@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Elena Xinyue Peng
   * https://www.linkedin.com/in/elena-xinyue-peng-8b7a0a173/
-* Tested on: (TODO) Windows 10, i7-2700 @ 2.1GHz 32GB, NVIDIA T1000 4096MB (CETS Virtual Lab)
+* Tested on: (TODO) Windows 10, Intel(R) Core(TM) i5-9400F CPU @ 2.90GH 48GB, NVIDIA GeForce GTX 1660 6144MB (Personal Desktop)
 
 ### (TODO: Your README)
 
@@ -16,10 +16,12 @@ Project 0 Getting Started
 ![debugging](./images/CTA_Thread.PNG)
 
 ### Part 2.1.4: Nsight Systems
-* blocked by CETS virtual lab admin account issue
+![debugging](./images/system1.PNG)
+![debugging](./images/system2.PNG)
 
 ### Part 2.1.5: Nsight Compute
-* blocked by CETS virtual lab admin account issue
+![debugging](./images/compute1.PNG)
+![debugging](./images/compute2.PNG)
 
 ### Part 2.2: Project Instructions - WebGL
 ![webgl1](./images/webgl1.PNG)
