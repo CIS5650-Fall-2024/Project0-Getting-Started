@@ -294,7 +294,7 @@ Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight
 7. Browse the report in Compute. The more you explore, the more it will be helpful later.
 8. Take a screenshot of the *Summary* and *Details* tab and save it to `images`, for Part 3.
 
-### Part 2.2: Project Instructions - WebGL
+## Part 2.2: Project Instructions - WebGL
 
 1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
 2. Check that you have [WebGL support](https://webglreport.com)
@@ -317,7 +317,7 @@ Full Nsight Compute documentation is available at https://docs.nvidia.com/nsight
 
 **Take a screenshot** the output of `https://webglreport.com` or `chrome:\\gpu` and save it to `\images`. Your submission must show that WebGL works on your machine (or any machine you plan to develop on, e.g: Moore or SIGLAB machines).
 
-### Part 2.3: Project Instructions - WebGPU
+## Part 2.3: Project Instructions - WebGPU
 
 1. Download [Google Chrome](https://www.google.com/chrome/) if not already installed
     * See a list of supported browsers and versions at https://github.com/gpuweb/gpuweb/wiki/Implementation-Status.
