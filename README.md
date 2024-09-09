@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * ADITHYA RAJEEV
   * [LinkedIn](https://www.linkedin.com/in/adithyar262/)
-* Tested on: Windows 11, i7 13th Gen @ 2.40GHz 16GB, GeForce RTX 4050 1GB (Personal)
+* Tested on: Windows 11, i7 13th Gen @ 2.40GHz 16GB, GeForce RTX 4050 8GB (Personal)
 
 ### Project Screenshots
 
