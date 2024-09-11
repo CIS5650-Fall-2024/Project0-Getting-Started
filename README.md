@@ -3,11 +3,41 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 5650: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Annie Qiu
+  * [LinkedIn](www.linkedin.com/in/annie-qiu-30531921a)
+* Tested on: Windows 11, i9-12900H @2500 Mhz, 16GB, RTX 3070 Ti 8GB (Personal)
 
-### (TODO: Your README)
+## CUDA
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### 2.1.2 Modify the CUDA Project
+
+![CUDA Project](images/2.1.2CUDA.png)
+
+### 2.1.3 Nsight Debugging
+
+![Autos&Warp](images/2.1.3Autos&Warp.png)
+
+### 2.1.4 Nsight System
+
+![Analysis Summary](images/2.1.4Analysis.png)
+
+![Timeline](images/2.1.4Timeline.png)
+
+### 2.1.5 Nsight Compute
+
+![Summary](images/2.1.5Summary.png)
+
+![Details](images/2.1.5Details.png)
+
+### 2.2 WebGL
+
+![Webgl Report](images/2.2Webgl1.png)
+
+![Webgl Report](images/2.2Webgl2.png)
+
+### 2.3 WebGPU
+
+![Webgpu Repot](images/2.3Webgpu.png)
+
+![Sample](images/2.3Example.png)
+
