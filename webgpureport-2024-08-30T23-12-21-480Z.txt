@@ -1,0 +1,105 @@
+WebGPU Report  
+
+#1 high-performance  
+=====================  
+
+adapter info:  
+---------------  
+* architecture: lovelace  
+* description 
+* device 
+* vendor:       nvidia  
+
+flags:  
+--------  
+* isFallbackAdapter: false  
+
+limits: 
+-------------------------------  
+* maxBindGroups:                             4
+* maxBindGroupsPlusVertexBuffers:            24  
+* maxBindingsPerBindGroup:                   1000  
+* maxBufferSize:                             2147483648 (2gb)  
+* maxColorAttachmentBytesPerSample:          128b  
+* maxColorAttachments:                       8
+* maxComputeInvocationsPerWorkgroup:         1k  
+* maxComputeWorkgroupSizeX:                  1k  
+* maxComputeWorkgroupSizeY:                  1k  
+* maxComputeWorkgroupSizeZ:                  64  
+* maxComputeWorkgroupStorageSize:            32768 (32k)  
+* maxComputeWorkgroupsPerDimension:          65535 (64k)  
+* maxDynamicStorageBuffersPerPipelineLayout: 8
+* maxDynamicUniformBuffersPerPipelineLayout: 10  
+* maxInterStageShaderComponents:             112  
+* maxInterStageShaderVariables:              28  
+* maxSampledTexturesPerShaderStage:          16  
+* maxSamplersPerShaderStage:                 16  
+* maxStorageBufferBindingSize:               2147483644 (2gb)  
+* maxStorageBuffersPerShaderStage:           10  
+* maxStorageTexturesPerShaderStage:          8
+* maxTextureArrayLayers:                     2048 (2k)  
+* maxTextureDimension1D:                     16384 (16k)  
+* maxTextureDimension2D:                     16384 (16k)  
+* maxTextureDimension3D:                     2048 (2k)  
+* maxUniformBufferBindingSize:               65536 (64k)  
+* maxUniformBuffersPerShaderStage:           12  
+* maxVertexAttributes:                       30  
+* maxVertexBufferArrayStride:                2048 (2k)  
+* maxVertexBuffers:                          8
+* minStorageBufferOffsetAlignment:           256b  
+* minUniformBufferOffsetAlignment:           256b  
+
+features: 
+---------------------------------  
+* bgra8unorm-storage  
+* depth-clip-control  
+* depth32float-stencil8  
+* float32-filterable  
+* indirect-first-instance  
+* rg11b10ufloat-renderable  
+* shader-f16  
+* texture-compression-bc  
+* timestamp-query  
+
+WGSL language features:  
+-------------------------  
+* packed_4x8_integer_dot_product  
+* pointer_composite_access  
+* readonly_and_readwrite_storage_textures  
+* unrestricted_pointer_parameters  
+
+misc:  
+-------  
+* fallback adapter:         not supported  
+* getPreferredCanvasFormat: bgra8unorm  
+
+dedicated workers:  
+====================  
+* webgpu API:                 exists  
+* requestAdapter:             successful  
+* requestDevice:              successful  
+* getContext("webgpu"):       successful  
+* requestAnimationFrame:      successful  
+* transferControlToOffscreen: successful  
+* OffscreenCanvas:            successful  
+* CanvasRenderingContext2D:   successful  
+
+shared workers:  
+=================  
+* webgpu API:                 exists  
+* requestAdapter:             successful  
+* requestDevice:              successful  
+* getContext("webgpu"):       successful  
+* transferControlToOffscreen: successful  
+* OffscreenCanvas:            successful  
+* CanvasRenderingContext2D:   successful  
+
+service workers:  
+==================  
+* webgpu API:                 exists  
+* requestAdapter:             successful  
+* requestDevice:              successful  
+* getContext("webgpu"):       successful  
+* transferControlToOffscreen: successful  
+* OffscreenCanvas:            successful  
+* CanvasRenderingContext2D:   successful
